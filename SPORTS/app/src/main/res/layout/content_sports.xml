@@ -11,6 +11,19 @@
 
     <TextView android:text="Hello World!" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/text"/>
+        android:id="@+id/text" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click"
+        android:layout_below="@+id/text"
+        android:id="@+id/click"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="make it better"
+        android:textColor="colorAccent"
+        android:layout_below="@+id/click" />
 
 </RelativeLayout>
